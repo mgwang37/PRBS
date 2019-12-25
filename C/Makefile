@@ -1,0 +1,13 @@
+all:
+	gcc PRBS7.c  -o PRBS7
+	gcc PRBS9.c  -o PRBS9
+	gcc PRBS10.c -o PRBS10
+	gcc PRBS11.c -o PRBS11
+	gcc PRBS15.c -o PRBS15
+	gcc PRBS20.c -o PRBS20
+	gcc PRBS23.c -o PRBS23
+	gcc PRBS29.c -o PRBS29
+	gcc PRBS31.c -o PRBS31
+
+clean:
+	rm PRBS9 PRBS7 PRBS31 PRBS29 PRBS23 PRBS20 PRBS10 PRBS11 PRBS15
